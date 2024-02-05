@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demande de la Saint-Valentin</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -21,11 +21,25 @@
             <section class="image-section">
                 <img src="images/heart.png" alt="Cœur">
             </section>
+            <section class="response-buttons">
+                <button class="response-button" onclick="accepter()">Oui</button>
+                <button class="response-button" onclick="refuser()">Non</button>
+            </section>
         </main>
         <footer>
             <p>Avec tout mon amour,</p>
             <p>Votre Nom</p>
         </footer>
     </div>
+
+    <script>
+        function accepter() {
+            alert('C\'est génial! Joyeuse Saint-Valentin!');
+        }
+
+        function refuser() {
+            alert('Oh non! Peut-être une prochaine fois. Joyeuse Saint-Valentin!');
+        }
+    </script>
 </body>
 </html>
