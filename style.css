@@ -1,6 +1,6 @@
 body {
     font-family: 'Helvetica', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #ffe6f2; /* Fond rose */
     color: #333;
     margin: 0;
     padding: 0;
@@ -9,26 +9,32 @@ body {
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #ffe6f2; /* Fond rose */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 header {
-    background-color: #ff3366;
+    background-color: #ff3399; /* Rose plus foncé */
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    border-bottom: 2px solid #e62e8a; /* Légère bordure en dessous du titre */
 }
 
 h1 {
     margin: 0;
     font-size: 2em;
+    border: 2px solid #e62e8a; /* Encadrement autour du titre */
+    padding: 10px;
+    display: inline-block; /* Pour que le fond rose s'applique seulement autour du texte */
+    background-color: #ff3399; /* Rose plus foncé */
 }
 
 main {
     padding: 20px;
+    background-color: #ffe6f2; /* Fond rose */
 }
 
 .message {
@@ -52,7 +58,7 @@ img {
     margin: 0 10px;
     font-size: 1em;
     cursor: pointer;
-    background-color: #ff3366;
+    background-color: #ff3399; /* Rose plus foncé */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -60,13 +66,13 @@ img {
 }
 
 .response-button:hover {
-    background-color: #e62163;
+    background-color: #e62e8a; /* Légèrement plus foncé au survol */
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ff3366;
+    background-color: #ff3399; /* Rose plus foncé */
     color: #fff;
 }
 
